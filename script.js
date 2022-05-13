@@ -63,4 +63,6 @@ function restyle(){
   var b = Math.random()*255;
   var outputColorString = "rgb(" + r + "," + g + "," + b + ")";
   text.style.color = outputColorString;
+  text.style.fontSize = (Math.random() * (30 - 10) + 10) + "px";
+  text.style.padding = (Math.random() * (50 - 10) + 10) + "px";
  }
